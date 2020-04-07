@@ -1,0 +1,198 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{soul}
+\usepackage[margin=1in]{geometry}
+
+\newlength{\drop}
+
+\usepackage{tikz}
+
+\newcommand{\inline}[2]{%
+    \begin{tikzpicture}[baseline=(word.base), txt/.style={shape=rectangle, inner sep=0pt}]% the baseline key ensures that nodes won't shift up if there's text with descenders, and the txt style removes extra spacing so you can use this inline
+    \node[txt] (word) {#1};% the first argument is the contents of the main node
+    \node[above] at (word.north) {\footnotesize{#2}};% the second argument is the tag; you can play with the positioning as necessary
+    \end{tikzpicture}%
+    }
+
+
+\begin{document}
+
+\begin{titlepage}
+
+\drop=0.1\textheight
+    \centering
+    \vspace*{\baselineskip}
+    \rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt}
+    \rule{\textwidth}{0.6pt}\\[\baselineskip]
+    {\LARGE ENGLISH\\[0.2\baselineskip] CHEAT SHEET}\\[0.2\baselineskip]
+    \rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt}
+    \rule{\textwidth}{1.6pt}\\[\baselineskip]
+    \scshape
+    From A1 to C2 \\
+    \vspace*{2\baselineskip}
+    Edited by \\[\baselineskip]
+    {\Large MAXIMILIANO PONCE\par}
+    {\itshape From Langpill\\ English Grammar Course \\\par}
+    \vfill
+    {\scshape 2020} \\
+    {\large MAXIMILIANO PONCE}\par
+
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\section{Introduction}
+\indent
+This document was written to understand the English grammar from A1 to C2 levels. In order to let you to study on your schedule this document is divided in the main topics of English grammar, so that you can go directly to the topic that you want to learn.\\
+\indent
+Remember that is important to practice on your own to master the English language, another advice for you is to speak with a friend of you who wants to learn English or already knows it, or even to your self, about any topic you like and if you are stuck to explain something then you can search on internet or ask to your friend to get feedback
+\newpage
+
+\section{Nouns}
+A \textbf{noun} is a word used to identify people, places, or things (\textbf{common nouns}) or to name a particular one of these (\textbf{proper noun}).
+\begin{center}
+  You can buy \inline{\textbf{coffee}}{Common noun} at \inline{\textbf{Starbucks}}{Proper noun}.
+\end{center}
+\subsection{Common nouns}
+A \textbf{common noun} is a noun showing a class of objects or a concept as opposed to a particular individual\\
+\begin{center}
+There was a \textbf{sofa}, two \textbf{chairs}, and a \textbf{wardrobe} in the \textbf{room}
+\end{center}
+\indent
+Note that \textbf{common nouns} are general names. \textbf{They are not capitalized unless they begin a sentence or are part of a title}.
+\begin{center}
+\textbf{Capitals} of the countries are usually very large cities
+\end{center}
+\begin{center}
+London is the \textbf{capital} of Great Britain
+\end{center}
+\subsubsection{Plural form}
+\begin{itemize}
+\item Noun $+$ S $\Rightarrow$ Plurar form \\e.g. flower-flowers, dog-dogs
+\item Noun ending in $s$, $ss$, $sh$, $ch$, $x$, $z$, $o$ $+$ $es$ $\Rightarrow$ Plural form \\ e.g. bus-buses, watch-watches, box-boxes
+\item Noun ending in $f$, $fe$ $\Rightarrow$ Change $f$ into $ve$ $+$ $s$ \\e.g. life-lives, wolf-wolves \quad (but: belief-beliefs, chef-chefs)
+\end{itemize}
+Remember that some nouns are \textbf{irregular}\\
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Singular} & \textbf{Plural}\\
+\hline
+man & men\\
+woman & women\\
+person & people\\
+child & children\\
+tooth & teeth\\
+foot & feet\\
+mouse & mice\\
+\hline
+\end{tabular}
+\end{center}
+
+\subsection{Proper nouns}
+\subsubsection{Subject Pronouns}
+A \textbf{subject} is the person or thing that performs the action in the clause or sentence.
+
+A \textbf{subject pronoun} is a pronoun that takes the place of a noun as the subject of a sentence
+
+\begin{center}
+	\textbf{She} told me about her worries.
+\end{center}
+Subject pronouns replace nouns that are the subjecto of their clause.
+
+\begin{center}
+		\begin{tabular}{|c|c|c|}
+		\hline
+		& \textbf{Singular} & \textbf{Plural} \\
+		\hline
+		$1^{st}$ person & I & we \\
+		$2^{nd}$ person & you & you \\
+		$3^{rd}$ person & he/she/it & they \\
+		\hline
+	\end{tabular}
+\end{center}
+\newpage
+We should replace the subject with a subject pronoun to avoid repetition.
+\begin{center}
+\textst{Mary is a student and Mary is very hard working.}\\
+Mary is a studen and \textbf{she} is very hard working.
+\end{center}
+
+We use the subject pronoun \textit{it} when we refer to objects, things, animals, or ideas.
+\begin{center}
+		\textit{ Love is eternal. \textbf{It} will last forever.}
+\end{center}
+
+Sometimes when we don't know the sex of a baby, we can use \textit{it}'.
+\begin{center}
+	Their baby is so small. \textbf{It} only weights 2 kilos.
+\end{center}
+\hspace{0.4cm} We use \textit{it} when we talk about time, weather, or temperature.
+\begin{center}
+	What time is \textbf{it}? - \textbf{It}'s 7 o'clock.\\
+	\textbf{It}'s quite cold today.
+\end{center}
+
+\subsubsection{Object Pronouns}
+An \textbf{object} is the person or thing that receives the action in the clause or sentence.\\
+An \textbf{object pronoun} is a pronoun that takes the place of a noun as the object of a sentence.
+\begin{center}
+	She told \textbf{me} about her worries.
+\end{center}
+
+Object pronouns are used to replace nouns that are the direct or indirect object of a clause.
+\begin{center}
+\begin{tabular}{|c|c|}
+	\hline
+	\textbf{Subject} & \textbf{Object} \\
+	\hline
+	I & me \\
+	you & you \\
+	he & him \\
+	she & her \\
+	it & it \\
+	we & us \\
+	they & them \\
+	\hline
+\end{tabular}
+\end{center}
+
+Object pronouns come either after a verb or a preposition.
+\begin{center}
+		Ethan asked \textbf{me} to tal to \textbf{them}.
+\end{center}
+
+Note tha the subject pronoun \textit{it} and the object pronoun \textit{it} look the same.
+
+\begin{center}
+		Do you know the movie 'Pertty Lady'? \textit{it} is my favourite! (subject pronoun)\\
+		I've seen \textit{it} many times. (object pronoun)
+\end{center}
+Remember that object nouns are always the recipients of the action in sentence.
+\begin{center}
+		\textst{He and me went to the movies}. \textbf{He and I} went to the movies.\\
+		\textst{Mrs. Keith called her and I}. Mrs. Keith called \textbf{her and me}.
+\end{center}
+
+We should replace the object with an object pronoun to avoid repetition.
+\begin{center}
+		I can't stop thinking about Amy. \textst{I can't stop imagining my future with Amy}. I can't stop imagining my future with \textbf{her}.
+\end{center}
+
+\newpage
+\subsubsection{Material Nouns}
+\textbf{Material nouns} denote a material or substance from which things are made of.
+\begin{center}
+		a \textbf{plastic} bottle, a \textbf{diamond} ring, etc.
+\end{center}
+Material nouns are uncountable, thus they do not have a plural form. Generally, articles are not used with material nouns as they are uncountable.
+\begin{center}
+		\textst{I realley want to buy these cottons pants.}\\
+		I really want to buy these \textbf{cotton} pants.
+\end{center}
+\end{document}
