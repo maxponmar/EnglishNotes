@@ -1,0 +1,12 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Introduction}{2}% 
+\contentsline {section}{\numberline {2}Nouns}{3}% 
+\contentsline {subsection}{\numberline {2.1}Common nouns}{3}% 
+\contentsline {subsubsection}{\numberline {2.1.1}Plural form}{3}% 
+\contentsline {subsection}{\numberline {2.2}Proper nouns}{3}% 
+\contentsline {subsection}{\numberline {2.3}Pronouns}{3}% 
+\contentsline {subsubsection}{\numberline {2.3.1}Subject Pronouns}{3}% 
+\contentsline {subsubsection}{\numberline {2.3.2}Object Pronouns}{4}% 
+\contentsline {subsection}{\numberline {2.4}Material Nouns}{5}% 
+\contentsline {subsection}{\numberline {2.5}Compund nouns}{5}% 
+\contentsline {subsection}{\numberline {2.6}Countable vs Uncountable Nouns}{6}% 
